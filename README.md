@@ -17,7 +17,7 @@ Instant PDF downloads that follow England's national curriculum, starring Buddy 
 - Squares, cubes and roots, plus KS2 SATs arithmetic practice papers
 - Every answer worked out and checked by computer
 
-Get them from the [Gumroad store](https://shop.thechels.uk) or the [Etsy shop](https://www.etsy.com/shop/thechelsuk) (single workbooks from £5.99, the Years 1 to 7 bundle £17.99).
+Get them from the [Gumroad store](https://shop.thechels.uk) or the [Etsy shop](https://www.etsy.com/shop/thechelsuk) (single workbooks from £4.79, the Years 1 to 7 bundle £17.99).
 
 ## The free app
 
