@@ -1,36 +1,34 @@
-# Mltply: maths that feels like a chat
+# Mltply: free maths app and printable workbooks
 
 [![Download on the App Store](images/app-store-badge.svg)](https://apps.apple.com/gb/app/mltply-math-quiz-for-kids/id6747147316)
 
-**Mltply** is a free maths quiz app for kids on iPhone. Buddy, a friendly maths robot, asks the questions in a chat, and your child types the answers. Times tables, adding, taking away and dividing, one message at a time, with no ads, no sign-up and nothing to buy.
+**Mltply** is a complete times tables practice package for primary-age children: a **free iPhone app** for daily practice with Buddy the robot, plus **printable maths workbooks** for Years 1 to 7, with every answer worked out. Made for parents practising at home and teachers in the classroom.
 
 This repository is the marketing website, live at **[mltply.thechels.uk](https://mltply.thechels.uk/)**.
 
-![Mltply: Buddy asks, your child answers](images/01-chat.jpg)
-
-## Why parents and teachers like it
-
-- **It feels like texting a friend.** A chat-style interface makes maths practice less intimidating than a worksheet.
-- **Times tables practice that sticks.** Choose numbers 1 to 12, so children can focus on the tables they're learning, such as for the Year 4 multiplication check.
-- **Four operations.** Addition, subtraction, multiplication and division, switched on or off to match what your child is learning.
-- **In order or shuffled.** Work up a table step by step, then shuffle the questions for a challenge.
-- **Streaks and achievements.** Unlock achievements for streaks, each number and operation, and milestones, to keep motivation high.
-- **Beat the clock.** Add a timer and chase a personal best, with levels from Starter and Explorer to Champion and GOAT.
-- **Private and safe.** Free, with no in-app purchases, no subscriptions, no ads and no data sharing. [Privacy policy](https://thechels.uk/app/privacy).
-- **Open source.** The app's code is on [GitHub](https://github.com/thechelsuk/com.uk.thechels.mltply).
-
-## Practise on paper too
-
-Printable Mltply maths workbooks for Years 1 to 7, covering times tables, division, fractions and more, all with answers:
-
-- [Gumroad store](https://shop.thechels.uk): printable workbooks, including a free sampler
-- [Etsy shop](https://www.etsy.com/shop/thechelsuk): digital downloads
-
 ![On screen and on paper](images/paper.jpg)
 
-## Get the app
+## Printable maths workbooks
 
-[Mltply: Math Quiz for Kids on the App Store](https://apps.apple.com/gb/app/mltply-math-quiz-for-kids/id6747147316). Free for iPhone.
+Instant PDF downloads that follow England's national curriculum, starring Buddy the robot from the app:
+
+- Times tables 2 to 12 and division 2 to 12
+- Addition and subtraction, and fractions
+- Squares, cubes and roots, plus KS2 SATs arithmetic practice papers
+- Every answer worked out and checked by computer
+
+Get them from the [Gumroad store](https://shop.thechels.uk) or the [Etsy shop](https://www.etsy.com/shop/thechelsuk) (single workbooks from £5.99, the Years 1 to 7 bundle £17.99).
+
+## The free app
+
+Buddy asks, your child answers, in a chat. Free on the [App Store](https://apps.apple.com/gb/app/mltply-math-quiz-for-kids/id6747147316), with no ads, no sign-up, no in-app purchases and no data sharing. [Privacy policy](https://thechels.uk/app/privacy).
+
+![Mltply: Buddy asks, your child answers](images/01-chat.jpg)
+
+- **It feels like texting a friend**, so practice is less intimidating than a worksheet.
+- **Times tables 1 to 12**: choose the tables, in order or shuffled, with addition, subtraction, multiplication and division.
+- **Streaks and achievements** keep motivation high, and a timer adds a challenge, with levels from Starter to GOAT.
+- **Open source**: the code is on [GitHub](https://github.com/thechelsuk/com.uk.thechels.mltply).
 
 ## About this site
 

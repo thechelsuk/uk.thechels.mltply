@@ -30,13 +30,14 @@ h1,h2,h3{font-weight:800}
 .hero h1 em{display:block}
 .hero-description{max-width:520px;font-size:19px;color:var(--muted)}
 .hero-actions{display:flex;flex-wrap:wrap;align-items:center;gap:18px 22px;margin-top:30px}
-.hero-note{color:var(--muted);font-size:14px;font-weight:600}
+.hero-note{margin:20px 0 0;color:var(--muted);font-size:14px;font-weight:600}
+.hero-note a{text-decoration:underline}
 .app-store-button{display:inline-block;border-radius:9px;transition:transform 160ms ease,box-shadow 160ms ease}
 .app-store-button:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(42,36,32,.25)}
 .app-store-button:focus-visible,.button:focus-visible{outline:3px solid var(--orange);outline-offset:4px}
 .app-store-button img{display:block;height:48px;width:auto}
 .hero-art{margin:0;justify-self:center}
-.hero-art img{display:block;width:min(100%,340px);border-radius:28px;box-shadow:0 30px 60px rgba(42,36,32,.2),0 0 0 1px var(--line)}
+.hero-art img{display:block;width:min(100%,380px);border-radius:28px;box-shadow:0 30px 60px rgba(42,36,32,.2),0 0 0 1px var(--line)}
 .section-wrap{padding:80px 0 0}
 .section-intro{max-width:680px;margin-bottom:36px}
 .section-intro p:last-child{color:var(--muted);font-size:18px}
@@ -92,6 +93,23 @@ h2{font-size:clamp(32px,5vw,54px);line-height:1.08;margin-bottom:16px;letter-spa
   .privacy-inner{padding:32px 24px}
   .section-wrap{padding-top:60px}
   .hero::before{left:-90px}
+  .hero::after{display:none}
   .site-footer{flex-direction:column;align-items:flex-start}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.app-store-button,.button{transition:none}}
+.button.primary{background:var(--orange);color:var(--ink);padding:14px 26px;font-size:17px;box-shadow:0 6px 0 var(--orange-dk)}
+.button.primary:hover{transform:translateY(-2px)}
+.button.outline{border:2px solid var(--ink);background:transparent}
+.closing-actions{justify-content:center;margin-top:24px}
+.two-up{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.half{padding:28px;border-radius:24px}
+.half h3{font-size:24px;margin:12px 0 8px}
+.half p{margin:0;font-size:17px}
+.paper-half{background:#8CF0E4;color:#12332F}
+.app-half{background:var(--yellow)}
+.half .badge{background:rgba(255,255,255,.6)}
+.tick-list{list-style:none;padding:0;margin:0 0 18px;display:grid;gap:8px;color:#12332F;font-size:17px}
+.tick-list li{padding-left:28px;position:relative}
+.tick-list li::before{content:"✓";position:absolute;left:0;font-weight:800}
+.price-note{font-weight:700}
+@media (max-width:960px){.two-up{grid-template-columns:1fr}}
