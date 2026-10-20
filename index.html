@@ -6,10 +6,13 @@
     <meta name="theme-color" content="#FBF7F0">
     <meta name="apple-itunes-app" content="app-id=6747147316">
     <meta name="color-scheme" content="light">
-    <meta name="description" content="A complete times tables package: a free app for daily practice with Buddy the robot, plus printable maths workbooks for Years 1 to 7, with answers. No ads, no sign-up.">
+    <meta name="description" content="A complete times tables package: a free app for daily practice with Buddy the robot, plus printable maths workbooks for Years 1 to 7. No ads, no sign-up.">
+    <meta name="author" content="thechelsuk">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
     <link rel="canonical" href="https://mltply.thechels.uk/">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Mltply">
+    <meta property="og:locale" content="en_GB">
     <meta property="og:url" content="https://mltply.thechels.uk/">
     <meta property="og:title" content="Mltply: Free maths app and printable workbooks">
     <meta property="og:description" content="The complete times tables package: a free app for daily practice with Buddy the robot, plus printable maths workbooks for Years 1 to 7, with answers.">
@@ -29,27 +32,115 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "MobileApplication",
-        "name": "Mltply",
-        "alternateName": "Mltply: Math Quiz for Kids",
-        "operatingSystem": "iOS",
-        "applicationCategory": "EducationalApplication",
-        "audience": {
-          "@type": "PeopleAudience",
-          "suggestedMinAge": 5,
-          "suggestedMaxAge": 12
-        },
-        "url": "https://mltply.thechels.uk/",
-        "image": "https://mltply.thechels.uk/images/mltply-icon.png",
-        "screenshot": "https://mltply.thechels.uk/images/01-chat.jpg",
-        "downloadUrl": "https://apps.apple.com/gb/app/mltply-math-quiz-for-kids/id6747147316",
-        "description": "A complete times tables package: a free app for daily practice with Buddy the robot, plus printable maths workbooks for Years 1 to 7, with answers. No ads, no sign-up.",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "GBP",
-          "description": "Free. No in-app purchases, no subscription, no ads."
-        }
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://thechels.uk/#person",
+            "name": "Mat Benfield",
+            "alternateName": "thechelsuk",
+            "url": "https://thechels.uk/",
+            "sameAs": [
+              "https://links.thechels.uk/",
+              "https://github.com/thechelsuk",
+              "https://apps.apple.com/gb/developer/mat-benfield/id1818791310"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://mltply.thechels.uk/#website",
+            "url": "https://mltply.thechels.uk/",
+            "name": "Mltply",
+            "inLanguage": "en-GB",
+            "publisher": {
+              "@id": "https://thechels.uk/#person"
+            }
+          },
+          {
+            "@type": "MobileApplication",
+            "@id": "https://mltply.thechels.uk/#app",
+            "name": "Mltply",
+            "alternateName": "Mltply: Math Quiz for Kids",
+            "operatingSystem": "iOS",
+            "applicationCategory": "EducationalApplication",
+            "audience": {
+              "@type": "PeopleAudience",
+              "suggestedMinAge": 5,
+              "suggestedMaxAge": 12
+            },
+            "url": "https://mltply.thechels.uk/",
+            "image": "https://mltply.thechels.uk/images/mltply-icon.png",
+            "screenshot": "https://mltply.thechels.uk/images/01-chat.jpg",
+            "downloadUrl": "https://apps.apple.com/gb/app/mltply-math-quiz-for-kids/id6747147316",
+            "description": "A complete times tables package: a free app for daily practice with Buddy the robot, plus printable maths workbooks for Years 1 to 7, with answers. No ads, no sign-up.",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "GBP",
+              "description": "Free. No in-app purchases, no subscription, no ads."
+            },
+            "inLanguage": "en-GB",
+            "featureList": [
+              "Chat-style practice with Buddy the robot",
+              "Times tables 1 to 12",
+              "Addition, subtraction, multiplication and division",
+              "In-order or shuffled questions",
+              "Streaks and achievements",
+              "Timed rounds from Starter to GOAT"
+            ],
+            "author": {
+              "@id": "https://thechels.uk/#person"
+            },
+            "publisher": {
+              "@id": "https://thechels.uk/#person"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://mltply.thechels.uk/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "Is the Mltply app really free?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. There are no ads, no in-app purchases, no subscriptions and no sign-up. The code is open source on GitHub."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What do the printable workbooks cover?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Times tables 2 to 12 and division, addition and subtraction, fractions, squares, cubes and roots, and KS2 SATs arithmetic practice papers, for Years 1 to 7 following England's national curriculum."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do the workbooks include answers?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Every answer is worked out and checked by computer, so marking takes minutes."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Where can I buy the workbooks?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "As instant PDF downloads on Gumroad and Etsy. On Etsy, single workbooks start from £4.79 and the Years 1 to 7 bundle is £17.99."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Does my child's data leave the device?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "No. Progress stays on your child's device and nothing is shared."
+                }
+              }
+            ]
+          }
+        ]
       }
     </script>
   </head>
@@ -171,6 +262,35 @@
             <a class="text-link" href="https://thechels.uk/app/privacy">Read our privacy policy <span aria-hidden="true">↗</span></a>
             <a class="text-link" href="https://github.com/thechelsuk/com.uk.thechels.mltply">See the code on GitHub <span aria-hidden="true">↗</span></a>
           </p>
+        </div>
+      </section>
+
+      <section class="faq section-wrap" id="faq" aria-labelledby="faq-title">
+        <div class="section-intro">
+          <p class="eyebrow">Questions</p>
+          <h2 id="faq-title">Frequently asked questions</h2>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>Is the Mltply app really free?</summary>
+            <p>Yes. There are no ads, no in-app purchases, no subscriptions and no sign-up. The code is open source on GitHub.</p>
+          </details>
+          <details class="faq-item">
+            <summary>What do the printable workbooks cover?</summary>
+            <p>Times tables 2 to 12 and division, addition and subtraction, fractions, squares, cubes and roots, and KS2 SATs arithmetic practice papers, for Years 1 to 7 following England&#x27;s national curriculum.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Do the workbooks include answers?</summary>
+            <p>Yes. Every answer is worked out and checked by computer, so marking takes minutes.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Where can I buy the workbooks?</summary>
+            <p>As instant PDF downloads on Gumroad and Etsy. On Etsy, single workbooks start from £4.79 and the Years 1 to 7 bundle is £17.99.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Does my child&#x27;s data leave the device?</summary>
+            <p>No. Progress stays on your child&#x27;s device and nothing is shared.</p>
+          </details>
         </div>
       </section>
 

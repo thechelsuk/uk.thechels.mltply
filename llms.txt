@@ -1,0 +1,59 @@
+# Mltply
+
+> Mltply is a complete times tables package: a free iPhone app where Buddy the robot asks maths questions in a chat, plus printable maths workbooks for Years 1 to 7.
+
+App available now on the App Store; printable workbooks on Gumroad and Etsy.
+
+Key facts:
+
+- App: free for iPhone, with no ads, no in-app purchases, no subscriptions and no sign-up; open source on GitHub
+- Workbooks: printable PDF maths workbooks for Years 1 to 7 following England's national curriculum, with answers
+- Where to buy workbooks: Gumroad (https://shop.thechels.uk) and Etsy (https://www.etsy.com/shop/thechelsuk); on Etsy single workbooks start from £4.79 and the Years 1 to 7 bundle is £17.99
+- Privacy: progress stays on the child's device; no data sharing
+- Developer: Mat Benfield (thechelsuk), made in the UK
+
+## Links
+
+- [Mltply website](https://mltply.thechels.uk/): the official marketing site
+- [App Store](https://apps.apple.com/gb/app/mltply-math-quiz-for-kids/id6747147316): download the app
+- [Printable workbooks on Gumroad](https://shop.thechels.uk)
+- [Printable workbooks on Etsy](https://www.etsy.com/shop/thechelsuk)
+- [Source code](https://github.com/thechelsuk/com.uk.thechels.mltply)
+- [Privacy policy](https://thechels.uk/app/privacy): what the app does and does not collect
+- [Project page](https://thechels.uk/projects/mltply): background from the developer
+
+## Features
+
+- Chat-style practice with Buddy the robot
+- Times tables 1 to 12
+- Addition, subtraction, multiplication and division
+- In-order or shuffled questions
+- Streaks and achievements
+- Timed rounds from Starter to GOAT
+
+## FAQ
+
+### Is the Mltply app really free?
+
+Yes. There are no ads, no in-app purchases, no subscriptions and no sign-up. The code is open source on GitHub.
+
+### What do the printable workbooks cover?
+
+Times tables 2 to 12 and division, addition and subtraction, fractions, squares, cubes and roots, and KS2 SATs arithmetic practice papers, for Years 1 to 7 following England's national curriculum.
+
+### Do the workbooks include answers?
+
+Yes. Every answer is worked out and checked by computer, so marking takes minutes.
+
+### Where can I buy the workbooks?
+
+As instant PDF downloads on Gumroad and Etsy. On Etsy, single workbooks start from £4.79 and the Years 1 to 7 bundle is £17.99.
+
+### Does my child's data leave the device?
+
+No. Progress stays on your child's device and nothing is shared.
+
+## Optional
+
+- [Site source on GitHub](https://github.com/thechelsuk/uk.thechels.mltply): static HTML and CSS for this site
+- [More apps by thechelsuk](https://thechels.uk/projects): the developer's other apps and projects
